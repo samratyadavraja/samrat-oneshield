@@ -294,7 +294,7 @@ customReadinessProbe: {}
 service:
   ## @param service.type Jenkins service type
   ##
-  type: nodeport
+  type: NodePort
   ## @param service.port Jenkins service HTTP port
   ##
   port: 80
